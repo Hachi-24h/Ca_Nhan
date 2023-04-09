@@ -1,0 +1,228 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.container {
+    width: 1500px;
+    margin-left: 20px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.header div input {
+    width: 640px;
+    height: 45px;
+    border: none;
+    background-color: rgb(240, 238, 238);
+    border-radius: 8px;
+}
+
+.menu {
+    margin-top: 35px;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    height: 30px;
+    margin-bottom: 0px;
+    border-bottom: 1px solid gray;
+}
+
+.item {
+    margin-right: 30px;
+    height: 30px;
+    font-weight: 300;
+}
+
+.center {
+    height: 1200px;
+    width: 1200px;
+    margin: auto;
+    margin-top: 40px;
+    border-bottom: 2px solid gray;
+}
+
+.ct-menu {
+    display: flex;
+    justify-content: space-between;
+}
+
+.ct-menu div p {
+    margin-top: 12px;
+}
+
+.ct-img-ctiet {
+    display: flex;
+}
+
+.ct-img-bottom {
+    display: flex;
+}
+
+.ct-img-bottom div {
+    margin-right: 10px;
+    margin-top: 15px;
+}
+
+.ct-img-bottom div img {
+    width: 150px;
+    height: 120px;
+}
+
+.row1 {
+    display: flex;
+}
+
+.r4-1 {
+    display: flex;
+    width: 230px;
+    height: 30px;
+}
+
+.r4-1 div {
+    margin-right: 60px;
+}
+
+.r4-2 {
+    margin-top: 20px;
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.r4-2-a {
+    display: flex;
+}
+
+.r4-2-a div {
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    border: 1px solid black;
+    margin-right: 10px;
+}
+
+.r4-2-b {
+    display: flex;
+    margin-top: 2px;
+}
+
+.r4-2-b button {
+    width: 50px;
+    height: 35px;
+    margin-right: 10px;
+    border: none;
+    background-color: white;
+}
+
+.ct-footer {
+    margin-top: 150px;
+    margin-bottom: 150px;
+}
+
+.ct-f-chose {
+    display: flex;
+    justify-content: space-between;
+}
+
+.ct-f-img {
+    margin-top: 20px;
+    display: flex;
+}
+
+.ct-f-img div {
+    margin-right: 35px;
+}
+
+.footer {
+    width: 100%;
+    height: 400px;
+    margin-bottom: 10px;
+    margin-top: 50px;
+    border-bottom: 1px solid gray;
+    display: block;
+    justify-content: center;
+}
+
+.f-img {
+    display: flex;
+    justify-content: center;
+}
+
+.f-sub {
+    display: flex;
+    justify-content: center;
+}
+
+.f-chu {
+    margin-top: 100px;
+    margin-left: 200px;
+    width: 800px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.f-cuoi {
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.ct-chitiet {
+    margin-left: 40px;
+}
+
+.row1 p {
+    color: black;
+    font-weight: 700;
+    font-size: 25px;
+    margin-right: 30px;
+}
+
+.row1 button {
+    border-radius: 15px;
+    border: none;
+    background-color: orange;
+    color: white;
+}
+
+.row2 {
+    display: flex;
+}
+
+.row2 div p img {
+    margin-top: 20px;
+}
+
+.row3 h1 {
+    font-size: 50px;
+    font-weight: 800;
+}
+
+.row3 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.row5 {
+    margin-top: 20px;
+    color: black;
+}
+
+.row5 select {
+    margin-top: 10px;
+}
+
+.row6,
+.row7,
+.row8 {
+    margin-top: 20px;
+}
+
+.row8 button {
+    width: 160px;
+    height: 40px;
+}
